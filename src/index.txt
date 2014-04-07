@@ -7,7 +7,9 @@ Updated 6 April 2014
 
 ===== What is this? =====
 
-[[http://zim-wiki.org/|Zim Desktop Wiki]] is a graphical text editor used to maintain a collection of wiki pages. **This is the information page for Zim's support IRC chat room.**
+**This is the information page for Zim's support IRC chat room.**
+
+[[http://zim-wiki.org/|Zim Desktop Wiki]] is a graphical text editor used to maintain a collection of wiki pages.
 
 Zim is supported on GNU/Linux and BSD desktops, and also on Windows. It is reportedly possible to install it in OS X as well, but there is no official installer.
 
@@ -57,5 +59,6 @@ If you think you have encountered a bug but you're not sure, posting on the mail
 
 I wrote it in a Zim notebook, of course. [[colophon|See my notes.]]
 
+----
 
 © 2014 Brendan Kidwell. Licensed under the [[https://gnu.org/licenses/fdl.html|GNU Free Documentation License]].
