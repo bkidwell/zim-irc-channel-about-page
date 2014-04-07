@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-06T19:43:39-04:00
+
+====== How This Site Was Made ======
+
+I created project folder with these subfolders and files:
+
+* scripts/
+	* build-html.sh
+	* publish.sh
+* src/
+	* [Zim notebook goes here]
+* Makefile
+
+**Makefile**
+'''
+html:
+	scripts/build-html.sh
+publish:
+	scripts/publish.sh
+'''
+
+
+**build-html.sh**
+'''
+#!/bin/bash
+cd "`dirname "$0"`"
+cd ..
+
+mkdir -p build
+cd build
+[ -e index.html ] && rm -rf *
+cd ..
+zim --export \
+  --format=html --template=Print \
+  --output=./build --index-page=sitemap \
+  src
+'''
+
+
+**publish.sh**
+'''
+#!/bin/bash
+cd "`dirname "$0"`"
+cd ..
+
+rsync --archive --verbose --compress --rsh=ssh \
+	build/ \
+	USER@HOST:/PATH/
+'''

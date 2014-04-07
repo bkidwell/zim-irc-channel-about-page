@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-06T19:19:35-04:00
+
+====== Zim Desktop Wiki IRC Channel ======
+Updated 6 April 2014
+
+===== What is this? =====
+
+[[http://zim-wiki.org/|Zim Desktop Wiki]] is a graphical text editor used to maintain a collection of wiki pages. **This is the information page for Zim's support IRC chat room.**
+
+Zim is supported on GNU/Linux and BSD desktops, and also on Windows. It is reportedly possible to install it in OS X as well, but there is no official installer.
+
+===== How can I access the Zim chat room? =====
+
+If you are already an expert IRC user, use your favorite IRC client to access chat.freenode.net port 6697 with SSL enabled, and join "#zim-wiki". Freenode's web site has [[http://freenode.net/irc_servers.shtml|more details about connecting to the network]].
+
+If you are new to IRC, the easiest way to access the chat room is to go to
+
+	https://webchat.freenode.net?channels=%23zim-wiki
+
+to run Freenode's instance of qwebirc directly in your browser. You don't have to configure or register anything; just pick a nickname no one else is using.
+
+===== What kind of discussion is allowed in the chat room? =====
+
+You can talk about anything related to Zim Dekstop Wiki:
+* Ask questions
+* Discuss ideas for customizing and enhancing Zim
+* Get help solving a problem
+
+If you want to share a large piece of text relevant to your question (such as a debug log), please post it on a site like [[http://pastebin.com/|Pastebin]], and then share just the URL in the chat room. Don't forget to make sure there are no secrets (passwords, API keys, etc.) in your post!
+
+Off-topic discussions are welcome whenever nothing else is happening. Please follow [[http://www.freenode.net/policy.shtml|Freenode policies]]; no commercial advertising, unlawful behavior, or impolite topics.
+
+===== May I be constantly logged into the chat room and offer help to others? =====
+
+Please do!
+
+===== Who is in charge? =====
+
+[[http://www.glump.net|Brendan Kidwell]] (**bkidwell**) is the channel owner. He is also the maintainer of the [[http://www.glump.net/software/zim-windows|Windows installer package for Zim]].
+
+===== No one is responding to me. =====
+
+**bkidwell** and **Jtirila** are almost always logged in and virtually lurking, but often neither of them are actually at a computer or connected from a handheld. Try again later.
+
+===== Where else can I get help? =====
+
+* Read the[[http://www.zim-wiki.org/manual/Start.html| manual]].
+* Read the [[https://github.com/jaap-karssenberg/zim-wiki/wiki|public support wiki]].
+* Check the [[https://bugs.launchpad.net/zim/|bug tracker]] and see if you're dealing with a known bug.
+* Join the [[https://launchpad.net/~zim-wiki|mailing list]] and/or read the [[http://lists.launchpad.net/zim-wiki|mailing list archive]].
+
+If you think you have encountered a bug but you're not sure, posting on the mailing list is a good way to find out. Make sure you explain your setup (your OS, your desktop environment, and whether you have a current or older version of Zim) and how to reproduce your problem.
+
+===== How did you make this web page? =====
+
+I wrote it in a Zim notebook, of course. [[colophon|See my notes.]]
+
+
+© 2014 Brendan Kidwell. Licensed under the [[https://gnu.org/licenses/fdl.html|GNU Free Documentation License]].
