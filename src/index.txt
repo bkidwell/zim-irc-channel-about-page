@@ -9,13 +9,20 @@ Updated 6 April 2014
 
 **This is the information page for Zim's support IRC chat room.**
 
+'''
+Server:   chat.freenode.net
+Port:     6697 (enable SSL)
+Channel:  #zim-wiki
+'''
+
+
 [[http://zim-wiki.org/|Zim Desktop Wiki]] is a graphical text editor used to maintain a collection of wiki pages.
 
 Zim is supported on GNU/Linux and BSD desktops, and also on Windows. It is reportedly possible to install it in OS X as well, but there is no official installer.
 
 ===== How can I access the Zim chat room? =====
 
-If you are already an expert IRC user, use your favorite IRC client to access chat.freenode.net port 6697 with SSL enabled, and join "#zim-wiki". Freenode's web site has [[http://freenode.net/irc_servers.shtml|more details about connecting to the network]].
+If you are already an expert IRC user, use your favorite IRC client to access the chat room with the parameters listed above. Freenode's web site has [[http://freenode.net/irc_servers.shtml|more details about connecting to the network]].
 
 If you are new to IRC, the easiest way to access the chat room is to go to
 
@@ -48,6 +55,7 @@ Please do!
 
 ===== Where else can I get help? =====
 
+* [[http://zim-wiki.org/|Zim's main web site]].
 * Read the[[http://www.zim-wiki.org/manual/Start.html| manual]].
 * Read the [[https://github.com/jaap-karssenberg/zim-wiki/wiki|public support wiki]].
 * Check the [[https://bugs.launchpad.net/zim/|bug tracker]] and see if you're dealing with a known bug.
